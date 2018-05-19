@@ -15,16 +15,23 @@ namespace ProductManager.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Orders()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Your Orders Page";
 
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Completed()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your Completed Page";
+
+            return View();
+        }
+
+        public IActionResult Archive()
+        {
+            ViewData["Message"] = "Your Archive Page";
 
             return View();
         }
